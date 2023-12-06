@@ -53,4 +53,3 @@ plt.xlabel('Position')
 plt.ylabel('Tumor Density')
 plt.title('Tumor Growth and Diffusion Animation')
 plt.show()
-

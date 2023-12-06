@@ -1,0 +1,9 @@
+#########################
+Let's go here: ​
+https://github.com/WallyBorden/Project4_Asif_Wally/tree/main​
+
+How can we stop the growth of the tumor in this model ? Think about different methods, talk to your neighbor for 5 minutes. ​
+
+Give a try once you're happy with your plan. ​
+
+Once you're happy/done with modification, open tutorial.py file to see what we changed and evaluate us!  
