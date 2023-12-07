@@ -5,12 +5,12 @@ from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
-# Parameters for the logistic growth and diffusion
+# parameters for the logistic growth and diffusion
 r = 0.1  # Growth rate
 K = 100  # Carrying capacity
 D = 0.01  # Diffusion coefficient
 
-# Define the spatial domain
+# spatial domain parameters
 L = 10  # Length of the domain
 N = 100  # Number of points in the domain
 dx = L / N  # Spatial step size
@@ -38,7 +38,7 @@ t_span = (0, 50)
 t = np.linspace(t_span[0], t_span[1], 200)
 
 # Solve the PDE
-sol = solve_ivp(reaction_diffusion, t_span, P0, t_eval=t, vectorized=True)
+sol = solve_ivp(reaction_diffusion, t_span, P0, t_eval=t)
 
 # Animation setup
 fig, ax = plt.subplots()
