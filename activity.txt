@@ -6,4 +6,4 @@ How can we stop the growth of the tumor in this model ? Think about different me
 
 Give a try once you're happy with your plan. ​
 
-Once you're happy/done with modification, open tutorial.py file to see what we changed and evaluate us!  
+Once you're happy/done with modification, open tutorial.py file to see what we changed, Thank you!  
